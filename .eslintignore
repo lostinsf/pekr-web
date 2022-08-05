@@ -1,6 +1,5 @@
-/node_modules
-/public
-/dist
-/.next
-/coverage
+.next
+.vscode
+node_modules
+public
 next.config.js

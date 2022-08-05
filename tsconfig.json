@@ -1,39 +1,14 @@
 {
+  // Configuration for TypeScript compilerOptions, export, import
   "compilerOptions": {
+    "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "strict": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "noUncheckedIndexedAccess": true,
-
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "allowUnreachableCode": false,
-    "noFallthroughCasesInSwitch": true,
-
-    "target": "es5",
-    "outDir": "out",
-    "declaration": true,
-    "sourceMap": true,
-
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "allowJs": false,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-
+   
     "jsx": "preserve",
-    "noEmit": true,
-    "isolatedModules": true,
-    "incremental": true,
+    "jsxImportSource": "@emotion/react",
 
     "baseUrl": ".",
     "paths": {
@@ -43,9 +18,10 @@
       "@layouts/*": ["./layouts/*"],
       "@libs/*": ["./libs/*"],
       "@pages/*": ["./pages/*"],
-      "@assets/*": ["./public/*"]
+      "@assets/*": ["./public/*"],
+      "@utils/*": ["./utils/*"]
     }
   },
-  "exclude": ["./node_modules/**/*", "./dist/**/*", "**/*.cy.ts", "next.config.js"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "exclude": ["node_modules", "next.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.d.ts"]
 }
