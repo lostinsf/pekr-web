@@ -1,0 +1,25 @@
+{
+  "title": "Pekr | Main",
+  "titleTemplate": "LBJ | %s",
+  "description": "웹 개발 테스터 제작을 위한 사이트",
+  "openGraph": {
+    "title": "Pekr | Main",
+    "description": "웹 개발 테스터 제작을 위한 사이트",
+    "type": "website",
+    "locale": "ko_KR",
+    "url": "LBJ, 웹 개발 테스터 제작을 위한 사이트",
+    "site_name": "pekr",
+    "images": [
+      {
+        "url": "https://drive.google.com/file/d/1t5clwnEUyzhSYjiyorr_110-3atlrjP0/view?usp=sharing",
+        "width": 304,
+        "height": 256,
+        "alt": "Google Drive"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@nextjs",
+    "site": "@nextjs"
+  }
+}
