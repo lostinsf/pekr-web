@@ -6,6 +6,12 @@
     "module": "esnext",
     "moduleResolution": "node",
     "allowUnreachableCode": false,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
    
     "jsx": "preserve",
     "jsxImportSource": "@emotion/react",

@@ -1,8 +1,4 @@
-import type {
-  ClassDescriptionModel,
-  ClassOwnerModel,
-  ClassUpcomingSessionModel,
-} from './common_dtos';
+import type { ClassDescriptionModel, ClassOwnerModel, ClassUpcomingSessionModel } from './common_dtos';
 
 export interface ClassInfoDTO {
   readonly classId: string;
